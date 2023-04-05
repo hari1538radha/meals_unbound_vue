@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="greetings">
-    hi
+    {{ msg }}
   </div>
 </template>
 
