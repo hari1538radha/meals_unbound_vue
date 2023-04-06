@@ -1,12 +1,12 @@
 <script setup>
 import TheWelcome from '../components/NavbarComponent.vue'
-import HelloWorld from '../components/HelloWorld.vue'
+import ProductListingVue from '../components/ProductListing.vue';
 </script>
 
 <template>
  
     <TheWelcome />
 
-    <HelloWorld msg="You did it!"/>
+   <ProductListingVue/>
 
 </template>
