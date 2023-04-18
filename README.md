@@ -1,41 +1,30 @@
-# vue-project
+Near Buy
 
-This template should help get you started developing with Vue 3 in Vite.
+Near Buy is a web application that helps users find nearby places based on their current location. The application utilizes the Google Maps API to display a map with markers for nearby places such as restaurants, ATMs, gas stations, and more.
+Installation
 
-## Recommended IDE Setup
+To run Near Buy locally on your machine, follow these steps:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+    Clone the repository to your local machine.
+    Navigate to the root directory of the project in your terminal.
+    Run npm install to install the necessary dependencies.
+    Create a .env file in the root directory with your Google Maps API key in the following format: REACT_APP_API_KEY=<your_api_key>.
+    Run npm start to start the application.
+    Open a web browser and navigate to http://localhost:3000.
 
-## Customize configuration
+Note: You must have a Google Maps API key to run the application locally. You can get a key by following the instructions here.
+Usage
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+To use Near Buy, follow these steps:
 
-## Project Setup
+    Open the application in your web browser.
+    Allow the application to access your location.
+    Search for a specific type of place using the search bar or select from a list of categories.
+    Click on a marker to view more information about the selected place.
 
-```sh
-npm install
-```
+Contributing
 
-### Compile and Hot-Reload for Development
+If you would like to contribute to the Near Buy project, feel free to fork the repository and submit a pull request. Please follow the code style and formatting conventions used in the project.
+License
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Near Buy is licensed under the MIT License.
